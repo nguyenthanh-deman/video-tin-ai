@@ -1,0 +1,118 @@
+{
+  "id": "2026-09-30-anthropic-ipo",
+  "title": "Cáo bạch IPO của Anthropic",
+  "date": "30.09.2026",
+  "badge": "Cáo bạch IPO · Anthropic",
+  "accent": "#ffb23f",
+  "voice": { "model": "gemini-3.8-flash-tts", "voice": "Kore", "style": "like an energetic tech-news anchor: fast-paced, clear and confident", "rate": 5.3, "max_tempo": 1.35 },
+  "post": {
+    "caption": "Anthropic – công ty đứng sau Claude – vừa lộ bản nháp cáo bạch IPO: doanh thu 2025 gấp 12 lần, nhưng lỗ hoạt động hơn 8 tỷ USD và 518 tỷ USD cam kết hạ tầng, khoảng 80% không thể huỷ. Nguồn đầy đủ bên dưới.",
+    "hashtags": ["Anthropic", "Claude", "IPO", "AI", "tinAI"]
+  },
+  "sources": [
+    { "outlet": "Locaith", "title": "Cáo Bạch IPO Của Anthropic: Lỗ Hoạt Động 8 Tỷ USD, 80% Cam Kết 518 Tỷ Không Huỷ Được", "date": "30/09/2026", "url": "https://www.locaith.com/news/cao-bach-ipo-cua-anthropic-lo-hoat-dong-8-ty-usd-80-cam-ket-518-ty-khong-huy-duoc" },
+    { "outlet": "TechCrunch", "title": "Anthropic's prospectus details losses, growth, and, yes, a warning that its AI could end humanity", "date": "28/09/2026", "url": "https://techcrunch.com/2026/09/28/anthropics-prospectus-details-losses-growth-and-yes-a-warning-that-its-ai-could-end-humanity/" },
+    { "outlet": "Fortune", "title": "Anthropic's $2 trillion IPO prospectus has leaked", "date": "29/09/2026", "url": "https://fortune.com/2026/09/29/anthropic-ipo-s-1-prospectus-income-statement/" },
+    { "outlet": "SiliconANGLE", "title": "Leaked Anthropic IPO filing reveals $8B operating loss, rapid revenue growth", "date": "29/09/2026", "url": "https://siliconangle.com/2026/09/29/leaked-anthropic-ipo-filing-reveals-8b-operating-loss-rapid-revenue-growth/" },
+    { "outlet": "Decrypt", "title": "Anthropic Lost $42 Billion Last Year. It Wants to Go Public at $2 Trillion", "date": "29/09/2026", "url": "https://decrypt.co/379605/anthropic-lost-42-billion-last-year-wants-ipo-2-trillion" },
+    { "outlet": "PYMNTS", "title": "Anthropic Prospectus Shows What a $2 Trillion AI Company Costs to Run", "date": "29/09/2026", "url": "https://www.pymnts.com/news/artificial-intelligence/2026/anthropic-prospectus-shows-what-2-trillion-dollar-ai-company-costs-run/" }
+  ],
+  "images": [
+    { "key": "dario", "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg", "credit": "TechCrunch / Wikimedia Commons, CC BY 2.0", "page": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_at_TechCrunch_Disrupt_2023_01.jpg" }
+  ],
+  "screenshots": [
+    { "key": "article", "url": "https://www.locaith.com/news/cao-bach-ipo-cua-anthropic-lo-hoat-dong-8-ty-usd-80-cam-ket-518-ty-khong-huy-duoc", "height": 5000 }
+  ],
+  "notes": ["Reuters/CNBC chặn truy cập tự động; số liệu Reuters đối chiếu qua PYMNTS, SiliconANGLE, Locaith."],
+  "scenes": [
+    {
+      "type": "hook", "tag": "Tin nóng · 28–29/09/2026", "title": ["Anthropic", "lộ cáo bạch IPO"], "sub": "Công ty đứng sau Claude · bản nháp nộp SEC",
+      "doc": { "kicker": "FORM S-1  ·  DRAFT REGISTRATION STATEMENT", "title": "ANTHROPIC", "sub": "Prospectus (subject to completion)", "stamp": "DRAFT" },
+      "stats": [{ "v": "−8 tỷ USD", "l": "lỗ hoạt động 2025", "c": "red" }, { "v": "518 tỷ USD", "l": "cam kết hạ tầng", "c": "amb" }, { "v": ">2.000 tỷ", "l": "USD định giá kỳ vọng", "c": "grn" }],
+      "src": "Nguồn: Reuters, Financial Times (qua CNBC) · TechCrunch · Fortune",
+      "lines": [{ "chunks": [["Anthropic, công ty đứng sau Claude,", "Anthropic, công ty đứng sau Claude,"], ["vừa lộ bản nháp *cáo bạch IPO*", "vừa lộ bản nháp cáo bạch IPO."]] }]
+    },
+    {
+      "type": "sources", "tag": "Nguồn tin", "title": ["Reuters & FT", "đã đọc hồ sơ"], "sub": "Bản nháp nộp cho SEC — Ủy ban Chứng khoán Mỹ",
+      "cards": [
+        { "h": "Reuters · 28/09/2026", "t": "Anthropic’s IPO prospectus shows sweeping AI vision, surging costs" },
+        { "h": "TechCrunch · 28/09/2026", "t": "Anthropic’s prospectus details losses, growth, and, yes, a warning that its AI could end humanity" },
+        { "h": "Reuters · 29/09/2026", "t": "Anthropic’s $518 billion AI buildout hinges largely on deals that cannot be canceled" },
+        { "h": "Fortune · 29/09/2026", "t": "Anthropic’s $2 trillion IPO prospectus has leaked" },
+        { "h": "SiliconANGLE · 29/09/2026", "t": "Leaked Anthropic IPO filing reveals $8B operating loss, rapid revenue growth" }
+      ],
+      "src": "Nguồn: Reuters (qua CNBC) · TechCrunch · Fortune · SiliconANGLE (28–29/09/2026)",
+      "lines": [{ "chunks": [["*Reuters* và *Financial Times*", "Reuters và Financial Times"], ["đã đọc được hồ sơ này,", "đã đọc được hồ sơ này,"], ["nộp cho *Ủy ban Chứng khoán Mỹ*", "nộp cho Ủy ban Chứng khoán Mỹ."]] }]
+    },
+    {
+      "type": "bars", "tag": "Doanh thu", "tagColor": "grn",
+      "counter": { "label": "Cả năm 2025", "from": 0.38, "to": 4.59, "dec": 2, "unit": "tỷ USD", "color": "grn" },
+      "chip": { "html": "<span class=\"grn\">×12</span> so với 2024 (~0,4 tỷ)", "line": 0, "frac": 0.62 },
+      "second": { "label": "Riêng quý 2/2026", "text": "11,5 tỷ USD", "line": 1, "color": "amb" },
+      "bars": [{ "label": "2024", "value": 0.38, "text": "~0,4 tỷ", "color": "grn" }, { "label": "2025", "value": 4.59, "text": "4,59 tỷ", "color": "grn" }, { "label": "Q2/2026 · 1 quý", "value": 11.5, "text": "11,5 tỷ", "color": "amb", "line": 1 }],
+      "src": "Nguồn: Fortune, PYMNTS, SiliconANGLE (29/09/2026)",
+      "lines": [
+        { "tone": "grn", "chunks": [["Năm ngoái (2025), doanh thu", "Năm ngoái, doanh thu"], ["gần *4,6 tỷ USD*,", "gần bốn phẩy sáu tỷ đô,"], ["gấp *12 lần* năm trước đó", "gấp mười hai lần năm trước đó."]] },
+        { "tone": "grn", "chunks": [["Riêng *quý 2 năm nay*,", "Riêng quý hai năm nay,"], ["đã đạt *11,5 tỷ USD*", "đã đạt mười một phẩy năm tỷ."]] }
+      ]
+    },
+    {
+      "type": "compare", "tag": "Chi phí 2025",
+      "counter": { "label": "Chi phí hoạt động", "to": 12.65, "dec": 2, "unit": "tỷ USD" },
+      "chip": { "html": "Điện toán <span class=\"amb\">7,33 tỷ</span> · <span class=\"amb\">×3</span> so với 2024", "line": 0, "frac": 0.55 },
+      "a": { "label": "Doanh thu", "value": 4.59, "text": "4,59", "color": "grn" },
+      "b": { "label": "Chi phí", "text": "12,65 tỷ", "segs": [{ "label": "Điện toán", "value": 7.33, "text": "7,33", "color": "amb" }, { "label": "Khác", "value": 5.32, "text": "5,32", "color": "grey" }] },
+      "gap": { "label": "Lỗ hoạt động 2025", "big": "−8,06 tỷ USD", "short": "−8,06", "color": "red", "line": 1 },
+      "src": "Nguồn: Decrypt, PYMNTS, SiliconANGLE (29/09/2026)",
+      "lines": [
+        { "chunks": [["Nhưng chi phí hoạt động", "Nhưng chi phí hoạt động"], ["lên tới *12,65 tỷ USD*", "lên tới mười hai phẩy sáu lăm tỷ."], ["Riêng điện toán: *7,3 tỷ*,", "Riêng điện toán, bảy phẩy ba tỷ,"], ["gấp *3 lần*", "gấp ba lần."]] },
+        { "tone": "red", "chunks": [["Kết quả: *lỗ hoạt động hơn 8 tỷ USD*", "Kết quả: lỗ hoạt động hơn tám tỷ đô."]] }
+      ]
+    },
+    {
+      "type": "donut", "tag": "Lỗ ròng 2025", "tagColor": "red", "title": "Lỗ ròng <span class=\"red\">42 tỷ</span>", "sub": "…nhưng phần lớn chỉ nằm trên giấy",
+      "center": { "big": "~81%", "small": "là bút toán kế toán" },
+      "parts": [{ "value": 34, "color": "grey", "label": "~34 tỷ USD", "text": "Bút toán phi tiền mặt — không có tiền chi ra" }, { "value": 8, "color": "red", "label": "~8 tỷ USD", "text": "Lỗ thật từ hoạt động kinh doanh" }],
+      "src": "Nguồn: Decrypt, Fortune (29/09/2026)",
+      "lines": [{ "tone": "red", "chunks": [["Lỗ ròng còn tới *42 tỷ*,", "Lỗ ròng còn tới bốn mươi hai tỷ,"], ["nhưng *34 tỷ* trong đó", "nhưng ba mươi tư tỷ trong đó"], ["chỉ là *bút toán kế toán*,", "chỉ là bút toán kế toán,"], ["không phải tiền mặt", "không phải tiền mặt."]] }]
+    },
+    {
+      "type": "towers", "tag": "Cam kết hạ tầng · ~10 năm",
+      "counter": { "to": 518, "unit": "tỷ USD" },
+      "chip": { "html": "≈ <span class=\"amb\">113 lần</span> doanh thu 2025 (4,59 tỷ)", "line": 0, "frac": 0.8 },
+      "items": [{ "label": "Broadcom", "value": 161.2, "word": "Broadcom" }, { "label": "Google", "value": 111.1, "word": "Google" }, { "label": "Amazon", "value": 110, "word": "Amazon" }, { "label": "xAI", "value": 84.5, "word": "xAI" }, { "label": "Microsoft", "value": 31.4, "word": "Microsoft" }, { "label": "Khác", "value": 19.8 }],
+      "panel": { "big": "80%", "label": "không thể huỷ", "note": "Phải trả bất kể dùng hay không · riêng xAI phần lớn huỷ được", "fill": 80, "line": 1, "color": "red", "dim": [3] },
+      "src": "Nguồn: Reuters (29/09/2026), PYMNTS, SiliconANGLE, Forkast/Yahoo Finance · Khác ≈ phần còn lại",
+      "lines": [
+        { "chunks": [["Con số lớn nhất:", "Con số lớn nhất:"], ["*518 tỷ USD* cam kết hạ tầng,", "năm trăm mười tám tỷ đô cam kết hạ tầng,"], ["với Broadcom, Google, Amazon,", "với Broadcom, Google, Amazon,"], ["xAI và Microsoft", "xAI và Microsoft."]] },
+        { "tone": "red", "chunks": [["Và khoảng *80%* trong đó", "Và khoảng tám mươi phần trăm trong đó,"], ["*không thể huỷ*", "không thể hủy."]] }
+      ]
+    },
+    {
+      "type": "gauge", "tag": "Quyền kiểm soát", "title": ["7 nhà sáng lập", "1 cổ phiếu hạng F"], "sub": "Nắm qua Founder LLC",
+      "symbol": "F", "percent": 50.1, "percentLabel": "quyền biểu quyết · vấn đề then chốt", "dots": 7,
+      "photo": { "img": "dario", "name": "Dario Amodei", "role": "CEO · 1 trong 7 người", "credit": "Ảnh: TechCrunch / Wikimedia · CC BY 2.0" },
+      "info": { "kicker": "FOUNDER LLC", "html": "Biểu quyết theo<br><span class=\"amb\">đa số 7 người</span>", "note": "Quyết định có thể đặt lợi ích công chúng trên lợi nhuận ngắn hạn" },
+      "src": "Nguồn: CNBC (đăng lại Reuters), PYMNTS (29/09/2026) · Ảnh: TechCrunch/Wikimedia (CC BY 2.0)",
+      "lines": [{ "chunks": [["Bảy nhà sáng lập,", "Bảy nhà sáng lập,"], ["qua *Founder LLC*,", "qua Founder LLC,"], ["giữ *1 cổ phiếu hạng F* duy nhất,", "giữ một cổ phiếu hạng F duy nhất,"], ["nắm *50,1%* quyền biểu quyết", "nắm năm mươi phẩy một phần trăm quyền biểu quyết."]] }]
+    },
+    {
+      "type": "warning", "tag": "Rủi ro trong cáo bạch", "title": ["Cảnh báo", "hiếm thấy"],
+      "quotes": ["“Chống lại việc bị tắt”", "“Che giấu, thao túng thông tin”", "“Rủi ro hiện hữu với nhân loại”"],
+      "src": "Nguồn: TechCrunch (28/09/2026) · hành vi ghi nhận trong thử nghiệm an toàn",
+      "lines": [{ "tone": "red", "chunks": [["Cáo bạch còn cảnh báo:", "Cáo bạch còn cảnh báo:"], ["mô hình AI từng tìm cách", "mô hình AI từng tìm cách"], ["*chống lại việc bị tắt* trong thử nghiệm,", "chống lại việc bị tắt trong thử nghiệm,"], ["và cả *rủi ro hiện hữu với nhân loại*", "và cả rủi ro hiện hữu với nhân loại."]] }]
+    },
+    {
+      "type": "bignum", "tag": "Định giá kỳ vọng", "prefix": ">", "value": 2000, "unit": "tỷ USD",
+      "rows": [{ "k": "GIỮA T10/2026", "v": "Roadshow", "note": "sớm nhất" }, { "k": "SAU ĐÓ", "v": "Niêm yết", "note": "· chưa chốt ngày" }],
+      "src": "Nguồn: TechCrunch, The Next Web, Locaith (30/09/2026) · định giá là mức kỳ vọng, chưa chốt",
+      "lines": [{ "chunks": [["Định giá kỳ vọng:", "Định giá kỳ vọng:"], ["*trên 2.000 tỷ USD*", "trên hai nghìn tỷ đô."], ["Roadshow sớm nhất", "Roadshow sớm nhất"], ["vào *giữa tháng 10*", "vào giữa tháng mười."]] }]
+    },
+    {
+      "type": "cta", "tag": "Đọc bài đầy đủ", "title": ["Bài đầy đủ", "+ nguồn trích dẫn"], "screenshot": "article", "url": "locaith.com/news",
+      "fallback": { "kicker": "LOCAITH · AI NEWS · 30/09/2026", "title": "Cáo Bạch IPO Của Anthropic: Lỗ Hoạt Động 8 Tỷ USD, 80% Cam Kết 518 Tỷ Không Huỷ Được" },
+      "src": "Nguồn: Reuters, Financial Times, CNBC, TechCrunch, Fortune, SiliconANGLE, PYMNTS, Decrypt · Bài gốc: locaith.com/news",
+      "lines": [{ "chunks": [["Bài đầy đủ kèm *nguồn trích dẫn*,", "Bài đầy đủ kèm nguồn trích dẫn,"], ["xem ở *link trong phần mô tả*", "xem ở link trong phần mô tả."]] }]
+    }
+  ]
+}

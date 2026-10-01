@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<title>Video tin AI – engine</title>
+<link rel="stylesheet" href="/node_modules/@fontsource/inter-tight/800.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/inter-tight/900.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/be-vietnam-pro/400.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/be-vietnam-pro/500.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/be-vietnam-pro/600.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/be-vietnam-pro/700.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/be-vietnam-pro/800.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/jetbrains-mono/500.css">
+<link rel="stylesheet" href="/node_modules/@fontsource/jetbrains-mono/700.css">
+<style>
+:root{
+  --bg:#08090b; --ink:#f4f1ea; --mute:#8f8b83; --dim:#5b5852;
+  --amb:#ffb23f; --grn:#3ddc84; --red:#ff4f4f; --line:rgba(255,255,255,.09); --card:rgba(18,19,22,.78);
+  --H:'Inter Tight',sans-serif; --B:'Be Vietnam Pro',sans-serif; --M:'JetBrains Mono',monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg)}
+body{font-family:var(--B);color:var(--ink);-webkit-font-smoothing:antialiased}
+#bg{position:absolute;inset:0;background:
+  radial-gradient(900px 700px at 80% 12%, rgba(255,178,63,.10), transparent 60%),
+  radial-gradient(900px 900px at 10% 85%, rgba(61,220,132,.06), transparent 60%),
+  linear-gradient(#0a0b0d,#070809)}
+#bg .grain{position:absolute;inset:0;opacity:.06;background-image:radial-gradient(rgba(255,255,255,.7) 1px,transparent 1px);background-size:6px 6px}
+canvas#gl{position:absolute;inset:0;width:1080px;height:1920px}
+#ui{position:absolute;inset:0}
+.abs{position:absolute}
+.scene{position:absolute;inset:0;opacity:0}
+/* header */
+#hdr{position:absolute;left:56px;right:56px;top:64px;height:56px;display:flex;align-items:center;justify-content:space-between}
+.pill{display:inline-flex;align-items:center;gap:14px;height:52px;padding:0 24px;border:1px solid rgba(255,255,255,.14);border-radius:999px;
+  font:700 23px/1 var(--M);letter-spacing:.08em;text-transform:uppercase;background:rgba(10,11,13,.6)}
+.pill i{width:12px;height:12px;border-radius:50%;background:var(--red);box-shadow:0 0 14px var(--red)}
+#date{font:500 24px/1 var(--M);color:var(--mute);letter-spacing:.06em}
+#prog{position:absolute;left:0;top:0;height:7px;background:linear-gradient(90deg,var(--amb),#ffd58a);box-shadow:0 0 18px rgba(255,178,63,.6)}
+/* type */
+.tag{font:700 24px/1 var(--M);letter-spacing:.12em;text-transform:uppercase;color:var(--amb);display:inline-flex;align-items:center;gap:12px}
+.tag:before{content:"";width:34px;height:3px;background:currentColor;display:inline-block}
+.h1{font:900 132px/0.92 var(--H);letter-spacing:-.035em;text-transform:uppercase}
+.h2{font:900 96px/0.95 var(--H);letter-spacing:-.03em;text-transform:uppercase}
+.h3{font:800 64px/1 var(--H);letter-spacing:-.02em}
+.big{font:900 188px/0.88 var(--H);letter-spacing:-.045em}
+.sub{font:500 38px/1.3 var(--B);color:#cfcac0}
+.lbl{font:600 30px/1.2 var(--B);color:var(--mute)}
+.amb{color:var(--amb)} .grn{color:var(--grn)} .red{color:var(--red)} .mute{color:var(--mute)}
+.chip{display:inline-flex;align-items:center;gap:12px;padding:14px 24px;border-radius:16px;background:var(--card);border:1px solid var(--line);
+  font:700 32px/1.1 var(--B);backdrop-filter:blur(6px)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:28px;backdrop-filter:blur(8px)}
+/* caption */
+#cap{position:absolute;left:60px;right:60px;top:1330px;height:170px;display:flex;align-items:center;justify-content:center;text-align:center}
+#cap span{font:800 54px/1.22 var(--B);letter-spacing:-.01em;color:#fff;
+  text-shadow:0 4px 0 rgba(0,0,0,.55),0 0 30px rgba(0,0,0,.9),0 0 8px rgba(0,0,0,.9)}
+#cap em{font-style:normal;color:var(--amb)}
+#cap.red em{color:var(--red)} #cap.grn em{color:var(--grn)}
+#src{position:absolute;left:56px;right:56px;top:1768px;font:500 23px/1.35 var(--B);color:#77736c;text-align:center}
+/* 3d labels */
+.bl{position:absolute;transform:translate(-50%,-100%);text-align:center;white-space:nowrap}
+.bl b{display:block;font:900 50px/1 var(--H);letter-spacing:-.02em}
+.bl small{display:block;font:600 25px/1.2 var(--M);color:var(--mute);letter-spacing:.04em;margin-bottom:8px;text-transform:uppercase}
+</style>
+<script type="importmap">{"imports":{"three":"/node_modules/three/build/three.module.js"}}</script>
+</head>
+<body>
+<div id="bg"><div class="grain"></div></div>
+<canvas id="gl" width="1080" height="1920"></canvas>
+<div id="ui">
+  <div id="prog"></div>
+  <div id="hdr"><div class="pill"><i></i><span id="badge"></span></div><div id="date"></div></div>
+  <div id="scenes"></div>
+  <div id="cap"><span></span></div>
+  <div id="src"></div>
+</div>
+<script type="module" src="./engine.js"></script>
+</body>
+</html>

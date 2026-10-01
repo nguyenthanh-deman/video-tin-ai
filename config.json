@@ -1,0 +1,6 @@
+{
+  "voice": { "model": "gemini-3.8-flash-tts", "voice": "Kore", "style": "like an energetic tech-news anchor: fast-paced, clear and confident", "rate": 5.3, "max_tempo": 1.35 },
+  "accent": "#ffb23f",
+  "music_volume": 0.45,
+  "tail": 2.0
+}
