@@ -1,0 +1,453 @@
+{
+  "id": "2026-10-02-gia-ai-giam",
+  "title": "Giá API AI giảm mạnh: GPT-6 Sol rẻ một nửa, Claude Opus 5.5 giảm 20%",
+  "date": "02.10.2026",
+  "badge": "Tin AI · Giá API",
+  "accent": "#29a3e6",
+  "voice": {
+    "model": "gemini-3.8-flash-tts",
+    "voice": "Kore",
+    "style": "like an energetic tech-news anchor: fast-paced, clear and confident",
+    "rate": 5.3,
+    "max_tempo": 1.35
+  },
+  "post": {
+    "caption": "Ngày 22/09/2026, OpenAI ra GPT-6 Sol với giá API giảm một nửa so với GPT-5.6 Sol, còn Anthropic giảm giá Claude Opus 5.5 khoảng 20% so với Opus 5. Rẻ hơn chưa chắc mạnh hơn: nên chạy thử trên tác vụ thật và tính chi phí cho mỗi kết quả. Nguồn xem bên dưới.",
+    "hashtags": [
+      "AI",
+      "GPT6",
+      "Claude",
+      "APIPricing",
+      "tinAI"
+    ]
+  },
+  "sources": [
+    {
+      "outlet": "Anthropic",
+      "title": "Claude Opus 5.5",
+      "date": "22/09/2026",
+      "url": "https://www.anthropic.com/claude-opus-5-5"
+    },
+    {
+      "outlet": "CIO",
+      "title": "OpenAI, Anthropic cut AI model costs as price-performance race intensifies",
+      "date": "23/09/2026",
+      "url": "https://www.cio.com/article/4225643/openai-anthropic-cut-ai-model-costs-as-price-performance-race-intensifies-2.html"
+    },
+    {
+      "outlet": "Digital Applied",
+      "title": "GPT-6 Sol and Luna: API Prices, Benchmarks and Trade-offs",
+      "date": "09/2026",
+      "url": "https://www.digitalapplied.com/blog/gpt-6-sol-luna-launch-pricing-benchmarks-2026"
+    },
+    {
+      "outlet": "Requesty",
+      "title": "GPT-6 Sol and Luna: Pricing, Release Date and API Access",
+      "date": "09/2026",
+      "url": "https://www.requesty.ai/blog/gpt-6-sol-luna-pricing-release-api"
+    }
+  ],
+  "notes": [
+    "Giá GPT-6 Sol/Luna khớp Digital Applied, Requesty và tóm tắt tìm kiếm; trang OpenAI gốc và The Next Web chưa đọc được (403/trống).",
+    "Giá Opus 5.5 lấy từ trang Anthropic, khớp CIO ở mức giảm 20%; con số rẻ hơn 40% để chạy là lời hãng, chưa kiểm độc lập.",
+    "Nhận định lợi chủ yếu ở giá, không ở điểm số chỉ từ Digital Applied (một nguồn): không đưa số điểm lên hình.",
+    "Blog bị 401 ở --ping nên chưa gửi."
+  ],
+  "scenes": [
+    {
+      "type": "hook",
+      "tag": "Tin nóng · 22/09/2026",
+      "title": [
+        "Giá AI",
+        "giảm mạnh"
+      ],
+      "sub": "OpenAI và Anthropic cùng hạ giá API",
+      "doc": {
+        "kicker": "API PRICING  ·  PER 1M TOKENS",
+        "title": "GPT-6 SOL",
+        "sub": "$2 input · $10 output",
+        "stamp": "-50%"
+      },
+      "stats": [
+        {
+          "v": "-50%",
+          "l": "GPT-6 Sol so với GPT-5.6",
+          "c": "grn"
+        },
+        {
+          "v": "-20%",
+          "l": "Opus 5.5 so với Opus 5",
+          "c": "grn"
+        },
+        {
+          "v": "$0,10",
+          "l": "Luna, đầu vào / triệu token",
+          "c": "amb"
+        }
+      ],
+      "src": "Nguồn: Anthropic · CIO · Digital Applied · Requesty (22-23/09/2026)",
+      "lines": [
+        {
+          "tone": "grn",
+          "chunks": [
+            [
+              "OpenAI vừa *cắt một nửa* giá API,",
+              "OpenAI vừa cắt một nửa giá A P I,"
+            ],
+            [
+              "Anthropic cũng *giảm giá* theo",
+              "Anthropic cũng giảm giá theo."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sources",
+      "tag": "Nguồn tin",
+      "title": [
+        "Giá lấy từ",
+        "trang hãng và báo"
+      ],
+      "sub": "Đối chiếu nhiều nguồn, ngày 22-23/09",
+      "cards": [
+        {
+          "h": "ANTHROPIC · 22/09/2026",
+          "t": "Claude Opus 5.5"
+        },
+        {
+          "h": "CIO · 23/09/2026",
+          "t": "OpenAI, Anthropic cut AI model costs as price-performance race intensifies"
+        },
+        {
+          "h": "DIGITAL APPLIED · 09/2026",
+          "t": "GPT-6 Sol and Luna: API Prices, Benchmarks and Trade-offs"
+        },
+        {
+          "h": "REQUESTY · 09/2026",
+          "t": "GPT-6 Sol and Luna: Pricing, Release Date and API Access"
+        }
+      ],
+      "src": "Nguồn: Anthropic, CIO, Digital Applied, Requesty",
+      "lines": [
+        {
+          "chunks": [
+            [
+              "Giá lấy từ *trang Anthropic*",
+              "Giá lấy từ trang Anthropic"
+            ],
+            [
+              "và các bài phân tích đối chiếu,",
+              "và các bài phân tích đối chiếu,"
+            ],
+            [
+              "ngày *hai mươi hai* tháng chín",
+              "ngày hai mươi hai tháng chín."
+            ]
+          ]
+        },
+        {
+          "chunks": [
+            [
+              "Hai hãng *ra mô hình mới* cùng ngày",
+              "Hai hãng ra mô hình mới cùng ngày."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bars",
+      "tag": "OpenAI · giá đầu ra",
+      "tagColor": "grn",
+      "counter": {
+        "label": "GPT-6 Sol, đầu ra",
+        "from": 20,
+        "to": 10,
+        "dec": 0,
+        "unit": "USD / triệu token",
+        "color": "grn",
+        "prefix": "$"
+      },
+      "bars": [
+        {
+          "label": "GPT-5.6 Sol",
+          "value": 20,
+          "text": "$20",
+          "color": "amb"
+        },
+        {
+          "label": "GPT-6 Sol",
+          "value": 10,
+          "text": "$10",
+          "color": "grn"
+        },
+        {
+          "label": "Luna",
+          "value": 0.5,
+          "text": "$0,50",
+          "color": "grn",
+          "line": 1
+        }
+      ],
+      "src": "Nguồn: Digital Applied, Requesty (09/2026) · giá đầu ra / triệu token",
+      "lines": [
+        {
+          "tone": "grn",
+          "chunks": [
+            [
+              "GPT-6 Sol: giá đầu ra",
+              "G P T sáu Sol: giá đầu ra"
+            ],
+            [
+              "còn *10 đô* mỗi triệu token,",
+              "còn mười đô mỗi triệu token,"
+            ],
+            [
+              "từ *20 đô*",
+              "từ hai mươi đô."
+            ]
+          ]
+        },
+        {
+          "tone": "grn",
+          "chunks": [
+            [
+              "Bản nhỏ Luna còn *50 xu*",
+              "Bản nhỏ Luna còn năm mươi xu."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bars",
+      "tag": "Anthropic · giá đầu ra",
+      "tagColor": "grn",
+      "counter": {
+        "label": "Claude Opus 5.5, đầu ra",
+        "from": 25,
+        "to": 20,
+        "dec": 0,
+        "unit": "USD / triệu token",
+        "color": "grn",
+        "prefix": "$"
+      },
+      "bars": [
+        {
+          "label": "Opus 5",
+          "value": 25,
+          "text": "$25",
+          "color": "amb"
+        },
+        {
+          "label": "Opus 5.5",
+          "value": 20,
+          "text": "$20",
+          "color": "grn"
+        }
+      ],
+      "src": "Nguồn: Anthropic (22/09/2026), CIO (23/09/2026) · số 40% là lời hãng, chưa kiểm độc lập",
+      "lines": [
+        {
+          "tone": "grn",
+          "chunks": [
+            [
+              "Claude Opus 5.5 giảm *20%*:",
+              "Claude Opus năm chấm năm giảm hai mươi phần trăm:"
+            ],
+            [
+              "đầu ra *20 đô*, từ 25",
+              "đầu ra hai mươi đô, từ hai mươi lăm."
+            ]
+          ]
+        },
+        {
+          "chunks": [
+            [
+              "Anthropic nói chạy thật",
+              "Anthropic nói chạy thật"
+            ],
+            [
+              "còn *rẻ hơn 40%*",
+              "còn rẻ hơn bốn mươi phần trăm."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bignum",
+      "tag": "Anthropic · bộ nhớ đệm",
+      "prefix": "-",
+      "value": 60,
+      "suffix": "%",
+      "unit": "giá đọc cache của Opus 5.5",
+      "rows": [
+        {
+          "k": "OPUS 5",
+          "v": "$0,50",
+          "note": "/ triệu token"
+        },
+        {
+          "k": "OPUS 5.5",
+          "v": "$0,20",
+          "note": "/ triệu token"
+        }
+      ],
+      "src": "Nguồn: Anthropic (22/09/2026) · giá đọc từ cache / triệu token",
+      "lines": [
+        {
+          "tone": "grn",
+          "chunks": [
+            [
+              "Đọc từ *bộ nhớ đệm* còn rẻ hơn:",
+              "Đọc từ bộ nhớ đệm còn rẻ hơn:"
+            ],
+            [
+              "từ *50 xu* xuống *20 xu*",
+              "từ năm mươi xu xuống hai mươi xu,"
+            ]
+          ]
+        },
+        {
+          "chunks": [
+            [
+              "nên prompt lặp lại nhiều",
+              "nên prompt lặp lại nhiều"
+            ],
+            [
+              "được *lợi rõ*",
+              "được lợi rõ rệt."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "warning",
+      "tag": "Đừng vội đổi",
+      "title": [
+        "Rẻ hơn",
+        "chưa chắc mạnh hơn"
+      ],
+      "quotes": [
+        "“Lợi chủ yếu ở giá”",
+        "“Không phải ở điểm số”",
+        "“Hãy thử trên tác vụ thật”"
+      ],
+      "src": "Nguồn: Digital Applied (09/2026), CIO (23/09/2026) · một đánh giá, chưa kiểm độc lập",
+      "lines": [
+        {
+          "tone": "red",
+          "chunks": [
+            [
+              "Nhưng *rẻ hơn* chưa chắc *mạnh hơn*:",
+              "Nhưng rẻ hơn chưa chắc mạnh hơn:"
+            ],
+            [
+              "một đánh giá cho thấy lợi",
+              "một đánh giá cho thấy lợi"
+            ],
+            [
+              "chủ yếu nằm ở *giá*",
+              "chủ yếu nằm ở giá."
+            ],
+            [
+              "Giới phân tích gọi đây là *cuộc đua giá*",
+              "Giới phân tích gọi đây là cuộc đua giá và hiệu năng."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "list",
+      "tag": "Việc nên làm",
+      "title": [
+        "3 bước",
+        "trước khi đổi mô hình"
+      ],
+      "items": [
+        {
+          "title": "Chạy thử tác vụ thật",
+          "desc": "Kịch bản, mô tả sản phẩm của bạn",
+          "word": "thử"
+        },
+        {
+          "title": "Tính chi phí mỗi kết quả",
+          "desc": "Không chỉ giá mỗi token",
+          "word": "kết"
+        },
+        {
+          "title": "Giữ nhiều nhà cung cấp",
+          "desc": "Để dễ đổi khi giá đổi",
+          "word": "nhà"
+        }
+      ],
+      "src": "Nguồn: CIO (23/09/2026), Requesty (09/2026) · khuyến nghị của Deman AI Lab",
+      "lines": [
+        {
+          "chunks": [
+            [
+              "Với người làm nội dung và bán hàng:",
+              "Với người làm nội dung và bán hàng:"
+            ],
+            [
+              "*chạy thử* trên tác vụ thật",
+              "chạy thử trên tác vụ thật,"
+            ]
+          ]
+        },
+        {
+          "chunks": [
+            [
+              "tính chi phí cho *mỗi kết quả*,",
+              "tính chi phí cho mỗi kết quả,"
+            ],
+            [
+              "và đừng phụ thuộc *một nhà* cung cấp",
+              "và đừng phụ thuộc một nhà cung cấp."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cta",
+      "tag": "Xem nguồn",
+      "title": [
+        "Giá chính thức",
+        "của Anthropic"
+      ],
+      "screenshot": "anthropic",
+      "url": "anthropic.com/claude-opus-5-5",
+      "fallback": {
+        "kicker": "ANTHROPIC · 22/09/2026",
+        "title": "Claude Opus 5.5: $4 đầu vào, $20 đầu ra mỗi triệu token"
+      },
+      "src": "Nguồn: Anthropic, CIO, Digital Applied, Requesty",
+      "lines": [
+        {
+          "chunks": [
+            [
+              "Nguồn đầy đủ nằm ở",
+              "Nguồn đầy đủ nằm ở"
+            ],
+            [
+              "*phần mô tả*",
+              "phần mô tả."
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "key": "anthropic",
+      "url": "https://www.anthropic.com/claude-opus-5-5",
+      "height": 4000
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+VIDEO: Giá API AI giảm mạnh: GPT-6 Sol rẻ một nửa, Claude Opus 5.5 giảm 20%
+Ngày: 02.10.2026
+======================================================================
+
+1) MÔ TẢ ĐĂNG KÈM VIDEO
+----------------------------------------------------------------------
+Ngày 22/09/2026, OpenAI ra GPT-6 Sol với giá API giảm một nửa so với GPT-5.6 Sol, còn Anthropic giảm giá Claude Opus 5.5 khoảng 20% so với Opus 5. Rẻ hơn chưa chắc mạnh hơn: nên chạy thử trên tác vụ thật và tính chi phí cho mỗi kết quả. Nguồn xem bên dưới.
+
+#AI #GPT6 #Claude #APIPricing #tinAI
+
+2) NGUỒN
+----------------------------------------------------------------------
+[1] Anthropic — Claude Opus 5.5 (22/09/2026)
+    https://www.anthropic.com/claude-opus-5-5
+[2] CIO — OpenAI, Anthropic cut AI model costs as price-performance race intensifies (23/09/2026)
+    https://www.cio.com/article/4225643/openai-anthropic-cut-ai-model-costs-as-price-performance-race-intensifies-2.html
+[3] Digital Applied — GPT-6 Sol and Luna: API Prices, Benchmarks and Trade-offs (09/2026)
+    https://www.digitalapplied.com/blog/gpt-6-sol-luna-launch-pricing-benchmarks-2026
+[4] Requesty — GPT-6 Sol and Luna: Pricing, Release Date and API Access (09/2026)
+    https://www.requesty.ai/blog/gpt-6-sol-luna-pricing-release-api
+
+3) HÌNH ẢNH
+----------------------------------------------------------------------
+- Ảnh chụp màn hình: https://www.anthropic.com/claude-opus-5-5
+- Đồ hoạ 3D/motion tự dựng bằng three.js; nhạc nền và hiệu ứng âm thanh tạo bằng code.
+
+4) GHI CHÚ KIỂM CHỨNG
+----------------------------------------------------------------------
+- Giá GPT-6 Sol/Luna khớp Digital Applied, Requesty và tóm tắt tìm kiếm; trang OpenAI gốc và The Next Web chưa đọc được (403/trống).
+- Giá Opus 5.5 lấy từ trang Anthropic, khớp CIO ở mức giảm 20%; con số rẻ hơn 40% để chạy là lời hãng, chưa kiểm độc lập.
+- Nhận định lợi chủ yếu ở giá, không ở điểm số chỉ từ Digital Applied (một nguồn): không đưa số điểm lên hình.
+- Blog bị 401 ở --ping nên chưa gửi.
+
+5) LỜI THOẠI
+----------------------------------------------------------------------
+1. OpenAI vừa cắt một nửa giá API, Anthropic cũng giảm giá theo
+2. Giá lấy từ trang Anthropic và các bài phân tích đối chiếu, ngày hai mươi hai tháng chín
+3. Hai hãng ra mô hình mới cùng ngày
+4. GPT-6 Sol: giá đầu ra còn 10 đô mỗi triệu token, từ 20 đô
+5. Bản nhỏ Luna còn 50 xu
+6. Claude Opus 5.5 giảm 20%: đầu ra 20 đô, từ 25
+7. Anthropic nói chạy thật còn rẻ hơn 40%
+8. Đọc từ bộ nhớ đệm còn rẻ hơn: từ 50 xu xuống 20 xu
+9. nên prompt lặp lại nhiều được lợi rõ
+10. Nhưng rẻ hơn chưa chắc mạnh hơn: một đánh giá cho thấy lợi chủ yếu nằm ở giá Giới phân tích gọi đây là cuộc đua giá
+11. Với người làm nội dung và bán hàng: chạy thử trên tác vụ thật
+12. tính chi phí cho mỗi kết quả, và đừng phụ thuộc một nhà cung cấp
+13. Nguồn đầy đủ nằm ở phần mô tả
